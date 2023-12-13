@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Character encoding and viewport for responsiveness -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SlideUp</title>
+  <style>
+    /* Resetting default margin and padding, and centering content */
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* Setting background image for the entire webpage */
+      background-image: url("https://images.pexels.com/photos/715546/pexels-photo-715546.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+      background-size: cover;
+      height: 100vh;
+    }
+    
+    /* Styling for main headline */
+    h1 {
+      margin: 0;
+    }
+    
+    /* Styling for the main container box */
+    .box {
+      height: 200px;
+      width: 300px;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid #333333;
+      /* Background image for the main container */
+      background-image: url("https://images.pexels.com/photos/715546/pexels-photo-715546.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+      background-size: cover;
+    }
+    
+    /* Styling for the hidden content box */
+    .hid-box {
+      top: 100%;
+      position: relative;
+      transition: all .3s ease-out;
+      /* Background image for the hidden content */
+      background-image: url("https://images.pexels.com/photos/902215/pexels-photo-902215.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+      background-size: cover;
+      height: 100%;
+      padding: 7px;
+      color: white;
+      text-align: center;
+      border-radius: 10px;
+    }
+    
+    /* Hover effect to reveal hidden content */
+    .box:hover > .hid-box {
+      top: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Main container box -->
+  <div class="box">
+    <!-- Hidden content box that slides up -->
+    <div class="hid-box">
+      <!-- Headline text -->
+      <h1>Slide up</h1>
+      <!-- Additional text content -->
+      <p>In seed time learn, in harvest teach, in winter enjoy.</p>
+    </div>
+  </div>
+</body>
+
+</html>

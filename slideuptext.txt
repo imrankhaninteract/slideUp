@@ -1,0 +1,12 @@
+How to Create Hover Effects: Slide-Up Text on an Image
+
+To begin crafting the HTML structure, initiate a new HTML document and establish a dedicated section within it, intended for both the 
+appearance and content of the webpage. Next, dive into CSS styling, employing various properties to define the visual aspects. 
+This includes setting background images for the entire page and specific elements, determining dimensions, borders, and other visual 
+attributes for the primary box and the sliding content box. Proceed to create the main container, serving as the holder for the content 
+box where the text will ultimately be displayed. Within this container, construct the content box itself. Populate it with text elements, 
+incorporating a headline that emphasizes the phrase "Slide up," along with supplementary text to convey a message or description. 
+Implement a hover effect for the main box, triggering the desired sliding movement of the content box upon interaction. Conclude by 
+summarizing the steps involved in achieving the slide-up text effect, encouraging further experimentation with HTML and CSS to explore 
+a range of effects. Close the tutorial by suggesting the finalization of the HTML document and prompting readers to observe the completed 
+result, witnessing the slide-up text effect in action.
